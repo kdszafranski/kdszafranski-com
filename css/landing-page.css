@@ -150,3 +150,18 @@ footer {
 p.copyright {
   margin: 15px 0 0;
 }
+
+/* BS overrides */
+
+.btn-secondary {
+  background-color: #304254;
+  border-color: #304254;
+  font-size: 1.21rem;
+  line-height: 1.2q5;
+}
+
+.btn-secondary:hover {
+  color: #072443;
+  background-color: #7398bd;
+  border-color: #7398bd;
+}
