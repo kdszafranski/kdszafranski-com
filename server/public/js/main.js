@@ -8,9 +8,15 @@ const images = [
 ];
 
 let current = 0;
+let intId = setInterval(nextImage, 4500);
 
 // timer
-setInterval(nextImage, 4500);
+function resetInterval() {
+    clearInterval(intId);
+    intId = setInterval(nextImage, 4500);
+    // go to next image
+    nextImage();
+}
 
 function nextImage() {
   current++;
@@ -21,3 +27,4 @@ function nextImage() {
   $('#games-carousel').attr('src', basePath + images[current].path);
   $('#games-carousel').attr('alt', images[current].description);
 }
+
