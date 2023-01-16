@@ -13,13 +13,11 @@ let current = 0;
 setInterval(nextImage, 4500);
 
 function nextImage() {
-  console.log('clicked next');
   current++;
   if (current == images.length) {
     current = 0;
   }
-  // set image path
+  // set image path and desc
   $('#games-carousel').attr('src', basePath + images[current].path);
   $('#games-carousel').attr('alt', images[current].description);
-
 }
