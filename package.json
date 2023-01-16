@@ -1,39 +1,27 @@
 {
-  "title": "Landing Page",
-  "name": "startbootstrap-landing-page",
-  "version": "4.0.0-beta",
-  "description": "An HTML landing page template built with Bootstrap",
-  "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template"
-  ],
-  "homepage": "https://startbootstrap.com/template-overviews/landing-page",
-  "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page/issues",
-    "email": "feedback@startbootstrap.com"
+  "title": "kdszafranski-com",
+  "name": "kdszafranski",
+  "version": "0.1",
+  "engines": {
+    "node": "12.19.0",
+    "npm": "6.12.x"
   },
+  "description": "Personal site of Kris Szafranski",
+  "homepage": "http://www.kdszafranski.com",
   "license": "MIT",
-  "author": "Start Bootstrap",
+  "author": "Kris Szafranski and Bootstrap",
   "contributors": [
     "David Miller (http://davidmiller.io/)"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page.git"
+    "url": "https://github.com/kdszafranski/kdszafranski-com"
   },
   "scripts": {
     "start": "node server/server.js"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-beta",
-    "express": "^4.16.4",
-    "font-awesome": "4.7.0",
-    "jquery": "^3.2.1",
-    "popper.js": "^1.11.1"
+    "express": "^4.16.4"
   },
   "devDependencies": {
     "browser-sync": "2.18.13",
