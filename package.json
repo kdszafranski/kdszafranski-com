@@ -1,7 +1,7 @@
 {
   "title": "kdszafranski-com",
   "name": "kdszafranski",
-  "version": "0.1",
+  "version": "1.0.0",
   "engines": {
     "node": "12.19.0",
     "npm": "6.12.x"
