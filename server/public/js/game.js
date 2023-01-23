@@ -1,8 +1,12 @@
 $(document).ready(start);
 
 let draggedItem = null;
+let itemsNeeded = -1;
 
 function start() {
+  // get number of items to find
+  itemsNeeded = $('.item').length;
+  
   $('.draggable').on('dragstart', handleDrag);
   $('body').on('dragover', allowDrop);
   $('body').on('drop', handleDrop);
@@ -31,23 +35,19 @@ function handleDrop(event) {
       draggedItem.attr('draggable', false);
       draggedItem.addClass('collected');
       draggedItem.removeClass('draggable');
-      draggedItem.removeClass('dragging');
+      
 
       checkWin();
-  } else {
-    draggedItem.removeClass('dragging');
-   }
+  }
 
+  draggedItem.removeClass('dragging');
   draggedItem = null;
 
 }
 
 function checkWin() {
   let loot = $('#dropzone').children();
-  for(let item of loot) {
-    console.log('items ', item.id);
-    if(item.id === 'gem') {
-      console.log('got the gem');
-    }
+  if(loot.length === 3) {
+    console.log('You WIN');
   }
 }
