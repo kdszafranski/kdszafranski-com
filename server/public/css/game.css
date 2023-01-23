@@ -1,0 +1,29 @@
+.draggable {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin: 20px;
+    padding: 10px;
+}
+.draggable:hover, #dropzone:hover {
+    background-color: red;
+}
+
+#dropzone {
+    width: 100px;
+    border: 2px solid black;
+    display: inline;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.collected {
+    width: 90px;
+    height: 20px;
+    background-color: gold;
+    padding: 2px;
+    margin: 10px;
+}
