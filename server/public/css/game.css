@@ -6,7 +6,13 @@
     padding: 10px;
 }
 .draggable:hover, #dropzone:hover {
-    background-color: red;
+    /* background-color: red; */
+}
+
+.dragging {
+    color: white;
+    background-color: purple;
+    border: 1px solid pink;
 }
 
 #dropzone {
@@ -24,6 +30,7 @@
     width: 90px;
     height: 20px;
     background-color: gold;
+    color: black;
     padding: 2px;
     margin: 10px;
 }
