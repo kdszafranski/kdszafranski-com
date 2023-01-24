@@ -24,14 +24,14 @@ function allowDrop(event) {
 
 function handleDrop(event) {
   event.preventDefault();
-  console.log('dropped', draggedItem.attr('id'));
+  console.log('dropped',  $(this));
 
-  if(event.target.id === 'dropzone') {      
+  if(event.target.id === 'dropzone' || event.target.id === 'chest') {      
       // clean up old DOM parent
       draggedItem.parent().remove(draggedItem);
       
       // rearrange DOM
-      $('#dropzone').append(draggedItem);
+      $('#chest').append(draggedItem);
       draggedItem.attr('draggable', false);
       draggedItem.addClass('collected');
       draggedItem.removeClass('draggable');

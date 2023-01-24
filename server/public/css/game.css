@@ -1,12 +1,7 @@
 .draggable {
-    width: 100px;
-    height: 100px;
-    background-color: pink;
+    /* width: 70px; */
     margin: 20px;
     padding: 10px;
-}
-.draggable:hover, #dropzone:hover {
-    /* background-color: red; */
 }
 
 .dragging {
@@ -27,10 +22,10 @@
 }
 
 .collected {
-    width: 90px;
-    height: 20px;
-    background-color: gold;
-    color: black;
     padding: 2px;
     margin: 10px;
+}
+
+.item {
+    width: 70px;
 }
