@@ -81,6 +81,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .content-section-a {
   padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
   background-color: #f8f8f8;
 }
 
@@ -154,11 +155,20 @@ p.copyright {
   margin: 15px 0 0;
 }
 
+.transition {
+  width: 65%;
+  margin: 0 auto;
+}
+
 /* BS overrides */
+ul {
+  font-weight: normal;
+
+}
 
 .btn-secondary {
-  background-color: #304254;
-  border-color: #304254;
+  /* background-color: #304254;
+  border-color: #304254; */
   font-size: 1.21rem;
   line-height: 1.2q5;
 }
@@ -170,7 +180,7 @@ p.copyright {
 }
 
 .img-fluid-highlights {
-  border-radius: 0.5rem;
-  border: 3px solid rgba(0, 0, 0, 0.78);
-  background-color: black;
+  /* border-radius: 0.5rem; */
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  background-color: #5c873b;
 }
