@@ -85,6 +85,12 @@ body, h1, h2, h3, h4, h5, h6 {
   background-color: #f8f8f8;
 }
 
+.content-section-a-sub {
+  margin-top: -40px;
+  padding: 0 0 50px 0;
+  background-color: #f8f8f8;
+}
+
 .content-section-b {
   padding: 50px 0;
   border-top: 1px solid #e7e7e7;
@@ -169,6 +175,14 @@ p.copyright {
 /* BS overrides */
 .navbar {
   border-bottom: 1px solid #e7e7e7;
+}
+
+.unbold {
+  font-weight: normal;
+}
+
+.noborder {
+  border: none;
 }
 
 ul {
