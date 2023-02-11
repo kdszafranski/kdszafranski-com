@@ -21,7 +21,7 @@ let moreGames = new Carousel(
       { description: `Edge of the Abyss`, path: 'mom-hill.png' },
     ],
     document.querySelector('#more-games'),
-    2500
+    5500
 );
 
 
