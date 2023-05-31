@@ -17,8 +17,6 @@ const assets = {
 app.use(express.static('server/public'));
 
 app.get("/assets", (req, res) => {
-    console.log(req.query);
-    console.log('env: ', process.env.ASSET_API_KEY);
     if(req.query.api_key === process.env.ASSET_API_KEY) {
         res.json(assets);
     } else {
