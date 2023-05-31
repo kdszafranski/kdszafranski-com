@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 5000;
+require('dotenv').config();
 
 const assets = {
     imagePath: "http://localhost:5000/img/game-images/",
@@ -16,7 +17,13 @@ const assets = {
 app.use(express.static('server/public'));
 
 app.get("/assets", (req, res) => {
-    res.json(assets);
+    console.log(req.query);
+    console.log('env: ', process.env.ASSET_API_KEY);
+    if(req.query.api_key === process.env.ASSET_API_KEY) {
+        res.json(assets);
+    } else {
+        res.sendStatus(403);
+    }
 });
 
 app.listen(PORT, () => {
