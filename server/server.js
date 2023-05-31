@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 const assets = {
-    imagePath: "http://localhost:5000/img/game-images",
+    imagePath: "http://localhost:5000/img/game-images/",
     images: [
         { description: `A Druid's Duel`, path: 'add1.png' },
         { description: `Monsters of Myth`, path: 'mom-dead.png' },
