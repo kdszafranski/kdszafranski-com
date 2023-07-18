@@ -98,7 +98,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .section-heading {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .section-heading-spacer {
@@ -207,4 +207,8 @@ ul {
   /* border-radius: 0.5rem; */
   border: 2px solid rgba(0, 0, 0, 0.6);
   background-color: #5c873b;
+}
+
+p.lead {
+  line-height: 1.35;
 }
