@@ -204,9 +204,10 @@ ul {
 }
 
 .img-fluid-highlights {
-  /* border-radius: 0.5rem; */
+  border-radius: 0.1rem;
   border: 2px solid rgba(0, 0, 0, 0.6);
-  background-color: #5c873b;
+  height: 326px;
+  overflow: hidden;  
 }
 
 p.lead {
