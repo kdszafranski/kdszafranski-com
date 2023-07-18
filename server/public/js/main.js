@@ -4,7 +4,6 @@
 let games = new Carousel(
   [
     { description: `A Druid's Duel`, path: 'add1.png' },
-    { description: `A Druid's Duel`, path: 'add3.png' },
     { description: `Monsters of Myth Closeup`, path: 'mom-july2.png' },
     { description: `A Druid's Duel`, path: 'add4.png' },
     { description: `Horror`, path: 'horror-hand.png' },
@@ -13,6 +12,7 @@ let games = new Carousel(
     { description: `Unity`, path: 'mom-unity.png' },
     { description: `Land and Ladders`, path: 'land.png' },
     { description: `Twisted Temple`, path: 'runner.jpg' },
+    { description: `A Druid's Duel`, path: 'add3.png' },
     { description: `Gargoyle`, path: 'gargoyle.png' },
     { description: `Using Unity`, path: 'unity1.png' },
     { description: `Buxton`, path: 'buxton.png' },
