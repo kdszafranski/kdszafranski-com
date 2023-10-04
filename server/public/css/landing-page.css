@@ -220,3 +220,17 @@ p.lead {
 p.sublead {
   font-weight: 300;
 }
+
+p.taglist {
+  margin-top: -4px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: purple;
+  font-size: 1rem;
+  color: white;
+  margin: 2px 2px 2px 0;
+  padding: 0 4px;
+  border-radius: 3px;
+}
