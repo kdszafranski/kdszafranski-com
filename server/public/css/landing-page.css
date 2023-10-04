@@ -21,7 +21,7 @@ body, h1, h2, h3, h4, h5, h6 {
   color: #f8f8f8;
   background: url(../img/zelda-cover.png) no-repeat center -26px;
   background-size: cover;
-  background-color: #887373;
+  background-color: #595a64;
   background-size: cover;
   background-blend-mode: multiply;
 }
@@ -214,4 +214,9 @@ ul {
 p.lead {
   line-height: 1.35;
   font-size: 1.5rem;
+  font-weight: normal;
 } 
+
+p.sublead {
+  font-weight: 300;
+}
