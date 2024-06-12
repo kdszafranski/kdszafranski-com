@@ -234,3 +234,31 @@ p.taglist {
   padding: 0 4px;
   border-radius: 3px;
 }
+ 
+.unreal, .unity {
+  background-color: #4b4b4b;
+}
+.bp {
+  background-color: rgb(65, 97, 152);
+}
+.c-sharp {
+  background-color: #7398bd;
+}
+.cpp {
+  background-color: brown;
+}
+.twoD {
+  background-color: forestgreen;
+}
+.threeD {
+  background-color: rgb(178, 144, 49);
+}
+.js {
+  background-color: darkolivegreen;
+}
+.graphics {
+  background-color: mediumpurple;
+}
+.web {
+  background-color: brown;
+}
